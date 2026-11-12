@@ -23,7 +23,7 @@ MonoBehaviour:
   projectileSpeed: 5
   targetMode: 0
   effectType: 1
-  slowMultiplier: 0.1
+  slowMultiplier: 3
   slowDuration: 2
   poisonDamagePerTick: 2
   poisonDuration: 4
