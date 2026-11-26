@@ -19,8 +19,8 @@ MonoBehaviour:
   sellValue: 75
   range: 5
   fireRate: 5
-  damage: 10
-  projectileSpeed: 5
+  damage: 15
+  projectileSpeed: 50
   targetMode: 0
   effectType: 0
   slowMultiplier: 0.1
