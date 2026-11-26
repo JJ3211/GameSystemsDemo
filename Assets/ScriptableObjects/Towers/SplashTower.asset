@@ -39,7 +39,7 @@ MonoBehaviour:
   resourceInterval: 5
   upgradeLevels:
   - levelName: Level 2
-    upgradeCost: 100
+    upgradeCost: 150
     damageBonus: 0
     rangeBonus: 1
     fireRateBonus: 1

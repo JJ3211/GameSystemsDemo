@@ -17,14 +17,14 @@ MonoBehaviour:
   projectilePrefab: {fileID: 2092777232227346601, guid: 9aafb6cfde87f0341b3152d4145e07ca, type: 3}
   cost: 100
   sellValue: 75
-  range: 5
-  fireRate: 5
+  range: 3
+  fireRate: 1
   damage: 0
-  projectileSpeed: 5
-  targetMode: 0
+  projectileSpeed: 50
+  targetMode: 2
   effectType: 1
-  slowMultiplier: 3
-  slowDuration: 2
+  slowMultiplier: 0.7
+  slowDuration: 300
   poisonDamagePerTick: 2
   poisonDuration: 4
   poisonTickRate: 1
@@ -39,17 +39,53 @@ MonoBehaviour:
   resourceInterval: 5
   upgradeLevels:
   - levelName: Level 2
-    upgradeCost: 100
+    upgradeCost: 150
     damageBonus: 0
     rangeBonus: 1
     fireRateBonus: 1
     splashDamageBonus: 0
     splashRadiusBonus: 0
-    slowMultiplierBonus: 0.1
-    slowDurationBonus: 1
+    slowMultiplierBonus: -0.2
+    slowDurationBonus: 0
     poisonDamagePerTickBonus: 0
     poisonDurationBonus: 0
-    poisonTickRateMultiplier: 1
+    poisonTickRateMultiplier: 0
+    stunDurationBonus: 0
+    burnDamagePerTickBonus: 0
+    burnDurationBonus: 0
+    burnTickRateMultiplier: 0
+    resourceGainBonus: 0
+    resourceIntervalMultiplier: 0
+  - levelName: Level 2
+    upgradeCost: 150
+    damageBonus: 0
+    rangeBonus: 1
+    fireRateBonus: 1
+    splashDamageBonus: 0
+    splashRadiusBonus: 0
+    slowMultiplierBonus: -0.2
+    slowDurationBonus: 0
+    poisonDamagePerTickBonus: 0
+    poisonDurationBonus: 0
+    poisonTickRateMultiplier: 0
+    stunDurationBonus: 0
+    burnDamagePerTickBonus: 0
+    burnDurationBonus: 0
+    burnTickRateMultiplier: 0
+    resourceGainBonus: 0
+    resourceIntervalMultiplier: 0
+  - levelName: Level 3
+    upgradeCost: 250
+    damageBonus: 0
+    rangeBonus: 1
+    fireRateBonus: 1
+    splashDamageBonus: 0
+    splashRadiusBonus: 0
+    slowMultiplierBonus: -0.2
+    slowDurationBonus: 0
+    poisonDamagePerTickBonus: 0
+    poisonDurationBonus: 0
+    poisonTickRateMultiplier: 0
     stunDurationBonus: 0
     burnDamagePerTickBonus: 0
     burnDurationBonus: 0
